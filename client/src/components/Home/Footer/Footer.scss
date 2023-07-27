@@ -1,0 +1,89 @@
+@import "../../../contants/mixins";
+
+.footer-container {
+  background-image: linear-gradient(-225deg, #dad9da 0%, #d7fffe 100%);
+}
+
+.footer-container-postion {
+  position: relative;
+}
+
+.position-text {
+  border: double 2px $SECONDARY8;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: $WHITE;
+  font-weight: 500px;
+  font-size: 1.5rem;
+  top: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: $SECONDARY8;
+}
+
+.footer-flex-container {
+  flex-direction: column;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.footer-content-box {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  margin: auto;
+  color: #05475e;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text-1 {
+  background: -webkit-linear-gradient($BLACK, #05475e, $BLACK);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+// .footer-link-box Link ::before{
+
+// }
+
+.footer-link-box a:link {
+  background: -webkit-linear-gradient($BLACK, #05475e, $BLACK);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.footer-link-box a:hover {
+  background: -webkit-linear-gradient($BLACK, $SECONDARY8, $BLACK);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+.footer-link-box a:active {
+  background: -webkit-linear-gradient($BLACK, $SECONDARY8, $BLACK);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.footer-link-box a:visited {
+  background: -webkit-linear-gradient($BLACK, $SECONDARY4, $BLACK);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.foooter-heading-2 {
+  background: -webkit-linear-gradient($BLACK, #05475e, $BLACK);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.social-icon {
+  color: #05475e;
+  display: inline-block;
+  margin-right: 0.5rem;
+}

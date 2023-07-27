@@ -1,0 +1,11 @@
+@import "../contants/mixins";
+
+//Authentication page style
+.authentication-formbox {
+  border: 4px solid transparent;
+  border-radius: 20px;
+  background: linear-gradient(to right, white, white),
+    linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}

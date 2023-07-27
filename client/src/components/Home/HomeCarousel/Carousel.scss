@@ -1,0 +1,70 @@
+@import "../../../contants/mixins";
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .carousel-image {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .carousel-image {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel-image {
+    aspect-ratio: 2/ 1;
+    object-fit: contain;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel-image {
+    aspect-ratio: 3/ 1;
+    object-fit: contain;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-image {
+    aspect-ratio: 3/ 1;
+    object-fit: contain;
+  }
+}
+
+.carousel-text {
+  color: black;
+}
+
+.position-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-box-bg {
+  background-image: url(../../../../public/asset/blue-background.jpg);
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: $PRIMARY6;
+}
+
+.carousel-indicators [data-bs-target].active {
+  background-color: $PRIMARY2;
+}

@@ -1,0 +1,65 @@
+@import "../../../contants/mixins";
+.multi-carousel-img {
+  width: 280px;
+  height: 280px;
+}
+.product-slider-wrap {
+  background-color: #cdedfd;
+  background-image: linear-gradient(
+    319deg,
+    #cdedfd 0%,
+    #fff8cd 77%,
+    #ffcfd2 100%
+  );
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  box-shadow: $PRIMARY5 0px 8px 20px, $BLACK 0px 8px 15px;
+  margin: 1rem 0;
+  margin-top: 2rem;
+}
+.product-slider .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.product-slider-header {
+  font-size: 1.4rem;
+  // color: $WHITE;
+  background: -webkit-linear-gradient(#ed4264, $PRIMARY3, $PRIMARY1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  // font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.react-multi-carousel-list {
+  border-radius: 1rem;
+}
+
+.inactive .custom-dots-cls {
+  background: #d76d77;
+}
+.custom-dots-cls {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
+  transition: background 0.5s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $WHITE;
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  outline: 0;
+  cursor: pointer;
+  background: #ed4264;
+}

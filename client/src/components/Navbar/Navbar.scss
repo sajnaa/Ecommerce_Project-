@@ -1,0 +1,60 @@
+@import "../../contants/mixins";
+
+.Nav-box {
+  background-color: #F0F8FF ;
+  //background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+  margin-bottom: 2rem;
+}
+
+.nav-link-text {
+  background: -webkit-linear-gradient($PRIMARY1, $PRIMARY2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-link-text:link {
+  background: -webkit-linear-gradient($PRIMARY1, $PRIMARY2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-link-text:visited {
+  background: -webkit-linear-gradient($BLACK, $PRIMARY1, $PRIMARY2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-link-text:active {
+  background: -webkit-linear-gradient($PRIMARY1, $PRIMARY2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-link-text:hover {
+  background: -webkit-linear-gradient($PRIMARY1, $PRIMARY4, $PRIMARY3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cart-text {
+  background: -webkit-linear-gradient($PRIMARY1, $PRIMARY3);
+}
+
+.toggle-btn-cls:hover {
+  background: -webkit-linear-gradient($PRIMARY3, $PRIMARY1);
+}
+.toggle-btn-cls:focus {
+  background: -webkit-linear-gradient($PRIMARY3, $PRIMARY1);
+}
